@@ -1,0 +1,5 @@
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\bin\Release\ZQ.BusinessComponents.dll
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\bin\Release\ZQ.BusinessComponents.pdb
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Release\BusinessComponents.csprojResolveAssemblyReference.cache
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Release\ZQ.BusinessComponents.dll
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Release\ZQ.BusinessComponents.pdb

@@ -1,0 +1,13 @@
+D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.dll
+D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.pdb
+D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.dll
+D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.pdb
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.dll
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.pdb
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Debug\BusinessComponents.csprojResolveAssemblyReference.cache
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.dll
+D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.pdb
+D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\bin\Debug\WZ.BusinessComponents.dll
+D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\bin\Debug\WZ.BusinessComponents.pdb
+D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\obj\Debug\WZ.BusinessComponents.dll
+D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\obj\Debug\WZ.BusinessComponents.pdb

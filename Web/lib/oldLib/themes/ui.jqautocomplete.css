@@ -1,0 +1,58 @@
+﻿.ui-jqautocomplete-placeholder
+{	
+	height: 24px;
+	text-align: left;		
+}
+
+.ui-jqautocomplete-toggle-image
+{
+	float: right;			
+}
+
+.ui-jqautocomplete-button-text
+{
+	
+}
+
+.ui-jqautocomplete-dropdown-wrapper {
+	display: none;	
+	position: absolute;
+	z-index: 10000;
+}
+
+.ui-jqautocomplete-dropdown {	
+	overflow-y: auto;	
+	overflow-x: hidden;
+}
+
+.ui-jqautocomplete-item a table tr td
+{
+	height : 20px;
+}
+
+.ui-jqautocomplete-item-text
+{	
+	margin-left: 2px;
+	padding: 3px 3px 3px 3px;
+	overflow: hidden;
+	white-space: pre;		
+}
+
+.ui-jqautocomplete-item-text:hover
+{	
+	cursor:pointer;	
+}
+
+
+.ui-jqautocomplete-item-image
+{	
+	border: 0;
+	margin-top: 2px;
+}
+
+.ui-jqautocomplete-input {
+}
+
+.ui-jqautocomplete-loading {
+	background: white url('loading.gif') right center no-repeat; }
+}

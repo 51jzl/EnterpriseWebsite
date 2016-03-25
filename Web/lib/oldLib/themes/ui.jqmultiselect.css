@@ -1,0 +1,112 @@
+﻿.ui-jqmultiselect-placeholder
+{	
+	padding-left: 1px;
+	padding-right: 1px;
+	height: 100%;
+	min-height: 16px;
+	text-align: left;
+}
+
+.ui-jqmultiselect-choices
+{	
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.ui-jqmultiselect-search-choice
+{
+	margin: 2px 2px 2px 2px;
+	padding: .1em .15em .1em .4em;
+	line-height: 1.5em;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-appearance: none;
+	list-style: none;
+	line-height: 1.5em;
+}
+
+.ui-jqmultiselect-search-choice span
+{	
+	line-height: 1.5em;
+	font-weight: normal !important;
+}
+
+.ui-jqmultiselect-search-choice span:hover
+{
+	cursor:pointer;
+}
+
+ui-jqmultiselect-search-field
+{
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	float: left;
+	list-style: none;
+	
+}
+
+.ui-jqmultiselect-search-input
+{
+	margin: 1px 0;
+	padding: 5px;
+	height: 15px;
+	outline: 0;
+	border: 0 !important;
+	background: transparent !important;
+	box-shadow: none;
+	color: #666;
+	font-size: 100%;
+	font-family: sans-serif;
+	line-height: normal;
+	border-radius: 0;
+	list-style: none;
+}
+
+.ui-jqmultiselect-toggle-image
+{
+	float: right;			
+}
+
+.ui-jqmultiselect-button-text
+{
+	
+}
+
+.ui-jqmultiselect-dropdown-wrapper {
+	display: none;	
+	position: absolute;
+	z-index: 10000;	
+}
+
+.ui-jqmultiselect-dropdown {	
+	overflow-y: auto;	
+	overflow-x: hidden;
+}
+
+.ui-jqmultiselect-item a table tr td
+{
+	height : 20px;
+}
+
+.ui-jqmultiselect-item-text
+{	
+	margin-left: 2px;
+	padding: 3px 3px 3px 3px;
+	overflow: hidden;
+	font-weight: normal;
+	white-space: pre;
+}
+
+.ui-jqmultiselect-item-text:hover 
+{
+	cursor: pointer;
+}
+
+.ui-jqmultiselect-item-image
+{	
+	border: 0;
+	margin-top: 2px;
+}
