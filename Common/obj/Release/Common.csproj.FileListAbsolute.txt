@@ -1,4 +1,0 @@
-D:\Leon\Github\ZhiQi\ReportingWebSite\Common\bin\Release\ZQ.Common.dll
-D:\Leon\Github\ZhiQi\ReportingWebSite\Common\bin\Release\ZQ.Common.pdb
-D:\Leon\Github\ZhiQi\ReportingWebSite\Common\obj\Release\ZQ.Common.dll
-D:\Leon\Github\ZhiQi\ReportingWebSite\Common\obj\Release\ZQ.Common.pdb

@@ -9,8 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using WZ;
-
+using Victornet;
 namespace PetaPoco
 {
     /// <summary>
@@ -1771,65 +1770,6 @@ namespace PetaPoco
             PocoData pocoData = PocoData.ForType(typeof(T));
             return this.Execute(new Sql(string.Format("DELETE FROM {0}", this._dbType.EscapeTableName(pocoData.TableInfo.TableName)), new object[0]).Append(sql));
         }
-
-        #region operation Fill
-
-        /// <summary>
-        /// 填充一个DataSet
-        /// </summary>
-        /// <param name="ds">引用的DataSet</param>
-        /// <param name="sql">sql语句</param>
-        /// <param name="args">参数</param>
-        public void Fill(DataSet ds, string sql, params object[] args)
-        {
-            OpenSharedConnection();
-
-            try
-            {
-                using (var cmd = CreateCommand(_sharedConnection, sql, args))
-                {
-                    using (DbDataAdapter dbDataAdapter = _factory.CreateDataAdapter())
-                    {
-                        dbDataAdapter.SelectCommand = (DbCommand)cmd;
-                        dbDataAdapter.Fill(ds);
-                    }
-                }
-            }
-            finally
-            {
-                CloseSharedConnection();
-            }
-        }
-
-        /// <summary>
-        /// 填充一个DataTable
-        /// </summary>
-        /// <param name="dt">DataTable的引用</param>
-        /// <param name="sql">Sql语句</param>
-        /// <param name="args">参数</param>
-        public void Fill(DataTable dt, string sql, params object[] args)
-        {
-            OpenSharedConnection();
-
-            try
-            {
-                using (var cmd = CreateCommand(_sharedConnection, sql, args))
-                {
-                    using (DbDataAdapter dbDataAdapter = _factory.CreateDataAdapter())
-                    {
-                        dbDataAdapter.SelectCommand = (DbCommand)cmd;
-                        dbDataAdapter.Fill(dt);
-                    }
-                }
-            }
-            finally
-            {
-                CloseSharedConnection();
-            }
-        }
-
-        #endregion
-
         /// <summary>
         /// Check if a poco represents a new row
         /// </summary>

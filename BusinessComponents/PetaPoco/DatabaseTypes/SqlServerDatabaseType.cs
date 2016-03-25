@@ -16,8 +16,8 @@
             {
                 parts.sqlSelectRemoved = "peta_inner.* FROM (SELECT " + parts.sqlSelectRemoved + ") peta_inner";
             }
-            string str = primaryKey ?? "*";
-            if (primaryKey != null && primaryKey.Contains<char>('.') && !primaryKey.EndsWith("."))
+            string str = primaryKey ?? string.Empty;
+            if (primaryKey.Contains<char>('.') && !primaryKey.EndsWith("."))
             {
                 str = primaryKey.Substring(primaryKey.LastIndexOf(".") + 1);
             }

@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE8AB1C8-E641-40C1-B4B0-44B95BB330C8}</ProjectGuid>
+    <ProjectGuid>{DC608847-F2A1-4BDE-957E-EE7A888CFB24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WZ.BusinessComponents</RootNamespace>
-    <AssemblyName>WZ.BusinessComponents</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>Victornet.Common</RootNamespace>
+    <AssemblyName>Victornet.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Victornet.Common.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,17 +31,425 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeKicker.BBCode">
+      <HintPath>..\packages\BBCode.5.0.0\lib\CodeKicker.BBCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Enyim.Caching">
+      <HintPath>..\packages\Membase.2.14\lib\net35\Enyim.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Enyim.Caching.Web">
+      <HintPath>..\packages\Enyim.Caching.Web.1.0.0.1\lib\net40\Enyim.Caching.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Core">
+      <HintPath>..\packages\Glimpse.0.83\lib\net40\Glimpse.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Mvc3">
+      <HintPath>..\packages\Glimpse.Mvc3.0.83\lib\net40\Glimpse.Mvc3.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.0\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\DotNetZip.1.9.3\lib\net20\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\packages\Lucene.Net.2.9.4.2\lib\net40\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Membase">
+      <HintPath>..\packages\Membase.2.14\lib\net35\Membase.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu">
+      <HintPath>..\packages\PanGu.2.3.1.0\lib\PanGu.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu.HighLight">
+      <HintPath>..\packages\PanGu.2.3.1.0\lib\PanGu.HighLight.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu.Lucene.Analyzer">
+      <HintPath>..\packages\PanGu.2.3.1.0\lib\PanGu.Lucene.Analyzer.dll</HintPath>
+    </Reference>
+    <Reference Include="RazorEngine">
+      <HintPath>..\packages\RazorEngine.3.2.0\lib\net40\RazorEngine.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\ApplicationData\ApplicationData.cs" />
+    <Compile Include="Common\ApplicationData\ApplicationDataKeys.cs" />
+    <Compile Include="Common\ApplicationData\ApplicationDataService.cs" />
+    <Compile Include="Common\ApplicationData\IApplicationDataCalculater.cs" />
+    <Compile Include="Common\ApplicationData\Repositories\ApplicationDataRepository.cs" />
+    <Compile Include="Common\ApplicationData\Repositories\IApplicationDataRepository.cs" />
+    <Compile Include="Common\ApplicationData\Task\ApplicationDataCalculaterTask.cs" />
+    <Compile Include="Common\Area\Area.cs" />
+    <Compile Include="Common\Area\AreaService.cs" />
+    <Compile Include="Common\Area\Configuration\AreaSettings.cs" />
+    <Compile Include="Common\Area\Repositories\AreaRepository.cs" />
+    <Compile Include="Common\Area\Repositories\IAreaRepository.cs" />
+    <Compile Include="Common\Logo\Configuration\LogoSettings.cs" />
+    <Compile Include="Common\Logo\Configuration\TenantLogoSettings.cs" />
+    <Compile Include="Common\Logo\LogoService.cs" />
+    <Compile Include="Common\OwnerData\Configuration\OwnerDataSettings.cs" />
+    <Compile Include="Common\OwnerData\IOwnerDataGetter.cs" />
+    <Compile Include="Common\OwnerData\OwnerData.cs" />
+    <Compile Include="Common\OwnerData\OwnerDataEnum.cs" />
+    <Compile Include="Common\OwnerData\OwnerDataGetterFactory.cs" />
+    <Compile Include="Common\OwnerData\OwnerDataKeys.cs" />
+    <Compile Include="Common\OwnerData\OwnerDataService.cs" />
+    <Compile Include="Common\OwnerData\Repositories\IOwnerDataRepository.cs" />
+    <Compile Include="Common\OwnerData\Repositories\OwnerDataRepository.cs" />
+    <Compile Include="Common\SystemData\Repositories\ISystemDataRepository.cs" />
+    <Compile Include="Common\SystemData\Repositories\SystemDataRepository.cs" />
+    <Compile Include="Common\SystemData\SystemData.cs" />
+    <Compile Include="Common\SystemData\SystemDataKeys.cs" />
+    <Compile Include="Common\SystemData\SystemDataService.cs" />
+    <Compile Include="Common\TenantType\MultiTenantServiceKeys.cs" />
+    <Compile Include="Common\TenantType\Repositories\ITenantTypeRepository.cs" />
+    <Compile Include="Common\TenantType\Repositories\TenantTypeRepository.cs" />
+    <Compile Include="Common\TenantType\TenantType.cs" />
+    <Compile Include="Common\TenantType\TenantTypeIds.cs" />
+    <Compile Include="Common\TenantType\TenantTypeService.cs" />
+    <Compile Include="Communication\InviteFriend\Configuration\InviteFriendSettings.cs" />
+    <Compile Include="Communication\InviteFriend\CSVParser.cs" />
+    <Compile Include="Communication\InviteFriend\IEmailContactAccessor.cs" />
+    <Compile Include="Communication\InviteFriend\IMsnContactAccessor.cs" />
+    <Compile Include="Communication\InviteFriend\InvitationCode.cs" />
+    <Compile Include="Communication\InviteFriend\InvitationCodeStatistic.cs" />
+    <Compile Include="Communication\InviteFriend\InviteFriendRecord.cs" />
+    <Compile Include="Communication\InviteFriend\InviteFriendService.cs" />
+    <Compile Include="Communication\InviteFriend\Repositories\IInvitationCodesRepository.cs" />
+    <Compile Include="Communication\InviteFriend\Repositories\IInvitationCodeStatisticsRepository.cs" />
+    <Compile Include="Communication\InviteFriend\Repositories\IInviteFriendRecordsRepository.cs" />
+    <Compile Include="Communication\InviteFriend\Repositories\InvitationCodesRepository.cs" />
+    <Compile Include="Communication\InviteFriend\Repositories\InvitationCodeStatisticsRepository.cs" />
+    <Compile Include="Communication\InviteFriend\Repositories\InviteFriendRecordsRepository.cs" />
+    <Compile Include="Communication\InviteFriend\Tasks\DeleteTrashInvitationCodesTask.cs" />
+    <Compile Include="Communication\Linktimeliness\LinktimelinessSettings.cs" />
+    <Compile Include="Communication\Reminder\Configuration\ReminderSettings.cs" />
+    <Compile Include="Communication\Reminder\IReminderInfoAccessor.cs" />
+    <Compile Include="Communication\Reminder\IReminderSender.cs" />
+    <Compile Include="Communication\Reminder\ReminderInfo.cs" />
+    <Compile Include="Communication\Reminder\ReminderInfoType.cs" />
+    <Compile Include="Communication\Reminder\ReminderInfoTypeIds.cs" />
+    <Compile Include="Communication\Reminder\ReminderInfoTypeSettings.cs" />
+    <Compile Include="Communication\Reminder\ReminderMode.cs" />
+    <Compile Include="Communication\Reminder\ReminderModeIds.cs" />
+    <Compile Include="Communication\Reminder\ReminderModeSettings.cs" />
+    <Compile Include="Communication\Reminder\ReminderRecord.cs" />
+    <Compile Include="Communication\Reminder\ReminderService.cs" />
+    <Compile Include="Communication\Reminder\Repositories\IReminderRecordRepository.cs" />
+    <Compile Include="Communication\Reminder\Repositories\IUserReminderSettingsRepository.cs" />
+    <Compile Include="Communication\Reminder\Repositories\ReminderRecordRepository.cs" />
+    <Compile Include="Communication\Reminder\Repositories\UserReminderSettingsRepository.cs" />
+    <Compile Include="Communication\Reminder\Tasks\DeleteTrashReminderRecordsTask.cs" />
+    <Compile Include="Communication\Reminder\Tasks\SendReminderTask.cs" />
+    <Compile Include="Communication\Reminder\UserReminderInfo.cs" />
+    <Compile Include="Communication\Reminder\UserReminderSettings.cs" />
+    <Compile Include="ContentOrganization\Announcements\Announcement.cs" />
+    <Compile Include="ContentOrganization\Announcements\AnnouncementEnum.cs" />
+    <Compile Include="ContentOrganization\Announcements\AnnouncementService.cs" />
+    <Compile Include="ContentOrganization\Announcements\Repositories\AnnouncementRepository.cs" />
+    <Compile Include="ContentOrganization\Announcements\Repositories\IAnnouncementRepository.cs" />
+    <Compile Include="ContentOrganization\Categories\Category.cs" />
+    <Compile Include="ContentOrganization\Categories\CategoryEventArgs.cs" />
+    <Compile Include="ContentOrganization\Categories\CategoryService.cs" />
+    <Compile Include="ContentOrganization\Categories\CategoryService`1.cs" />
+    <Compile Include="ContentOrganization\Categories\ItemInCategory.cs" />
+    <Compile Include="ContentOrganization\Categories\Repositories\CategoryRepository.cs" />
+    <Compile Include="ContentOrganization\Categories\Repositories\ICategoryRepository.cs" />
+    <Compile Include="ContentOrganization\Categories\Repositories\IItemInCategoryRepository.cs" />
+    <Compile Include="ContentOrganization\Categories\Repositories\ItemInCategoryRepository.cs" />
+    <Compile Include="ContentOrganization\Recommend\Configuration\IRecommendUrlGetter.cs" />
+    <Compile Include="ContentOrganization\Recommend\Configuration\RecommendUrlGetterFactory.cs" />
+    <Compile Include="ContentOrganization\Recommend\RecommendItem.cs" />
+    <Compile Include="ContentOrganization\Recommend\RecommendItemType.cs" />
+    <Compile Include="ContentOrganization\Recommend\RecommendService.cs" />
+    <Compile Include="ContentOrganization\Recommend\Repositories\IRecommendItemRepository.cs" />
+    <Compile Include="ContentOrganization\Recommend\Repositories\IRecommendItemTypeRepository.cs" />
+    <Compile Include="ContentOrganization\Recommend\Repositories\RecommendItemRepository.cs" />
+    <Compile Include="ContentOrganization\Recommend\Repositories\RecommendItemTypeRepository.cs" />
+    <Compile Include="ContentOrganization\Recommend\Tasks\DeleteExpiredRecommendItemsTask.cs" />
+    <Compile Include="ContentOrganization\Tags\Configuration\ITagUrlGetter.cs" />
+    <Compile Include="ContentOrganization\Tags\Configuration\TagUrlGetterManager.cs" />
+    <Compile Include="ContentOrganization\Tags\CountTypesExtension.cs" />
+    <Compile Include="ContentOrganization\Tags\ItemInTag.cs" />
+    <Compile Include="ContentOrganization\Tags\RelatedTag.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\IItemInTagRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\IRelatedTagRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\ITagGroupRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\ITagInGroupRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\ITagInOwnerRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\ITagRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\ItemInTagRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\RelatedTagRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\TagGroupRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\TagInGroupRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\TagInOwnerRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Repositories\TagRepository.cs" />
+    <Compile Include="ContentOrganization\Tags\Tag.cs" />
+    <Compile Include="ContentOrganization\Tags\TagEnum.cs" />
+    <Compile Include="ContentOrganization\Tags\TagEventArgs.cs" />
+    <Compile Include="ContentOrganization\Tags\TagGroup.cs" />
+    <Compile Include="ContentOrganization\Tags\TagInGroup.cs" />
+    <Compile Include="ContentOrganization\Tags\TagInOwner.cs" />
+    <Compile Include="ContentOrganization\Tags\TagQuery.cs" />
+    <Compile Include="ContentOrganization\Tags\TagService.cs" />
+    <Compile Include="ContentOrganization\Tags\TagService`1.cs" />
+    <Compile Include="ContentOrganization\Tags\TagSettings.cs" />
+    <Compile Include="Interaction\Count\CountEntity.cs" />
+    <Compile Include="Interaction\Count\CountPerDayEntity.cs" />
+    <Compile Include="Interaction\Count\CountQueueItem.cs" />
+    <Compile Include="Interaction\Count\CountService.cs" />
+    <Compile Include="Interaction\Count\CountTypes.cs" />
+    <Compile Include="Interaction\Count\Repositories\CountRepository.cs" />
+    <Compile Include="Interaction\Count\Repositories\ICountRepository.cs" />
+    <Compile Include="Interaction\Count\StageCountTypeManager.cs" />
+    <Compile Include="Interaction\Count\Tasks\ExecCountQueueTask.cs" />
+    <Compile Include="Interaction\Count\Tasks\UpdateStageCountTask.cs" />
+    <Compile Include="Regulate\Audit\ApplicationDataKeysExtensions.cs" />
+    <Compile Include="Regulate\Audit\AuditEnum.cs" />
+    <Compile Include="Regulate\Audit\AuditEventArgs.cs" />
+    <Compile Include="Regulate\Audit\AuditItem.cs" />
+    <Compile Include="Regulate\Audit\AuditItemInUserRole.cs" />
+    <Compile Include="Regulate\Audit\AuditItemKeys.cs" />
+    <Compile Include="Regulate\Audit\AuditService.cs" />
+    <Compile Include="Regulate\Audit\IAuditable.cs" />
+    <Compile Include="Regulate\Audit\Repositories\AuditItemInUserRoleRepository.cs" />
+    <Compile Include="Regulate\Audit\Repositories\IAuditItemInUserRoleRepository.cs" />
+    <Compile Include="Regulate\Permission\ApplicationAdministratorRoleNames.cs" />
+    <Compile Include="Regulate\Permission\AuthorizationService.cs" />
+    <Compile Include="Regulate\Permission\IAuthorizationService.cs" />
+    <Compile Include="Regulate\Permission\ITenantAuthorizationHandler.cs" />
+    <Compile Include="Regulate\Permission\PermissionEnum.cs" />
+    <Compile Include="Regulate\Permission\PermissionItem.cs" />
+    <Compile Include="Regulate\Permission\PermissionItemInUserRole.cs" />
+    <Compile Include="Regulate\Permission\PermissionItemKeys.cs" />
+    <Compile Include="Regulate\Permission\PermissionService.cs" />
+    <Compile Include="Regulate\Permission\Repositories\IPermissionItemInUserRoleRepository.cs" />
+    <Compile Include="Regulate\Permission\Repositories\PermissionItemInUserRoleRepository.cs" />
+    <Compile Include="Regulate\Permission\ResolvedUserPermission.cs" />
+    <Compile Include="Regulate\Privacy\Configuration\PrivacySettings.cs" />
+    <Compile Include="Regulate\Privacy\ContentPrivacyService.cs" />
+    <Compile Include="Regulate\Privacy\ContentPrivacySpecifyObject.cs" />
+    <Compile Include="Regulate\Privacy\IPrivacyable.cs" />
+    <Compile Include="Regulate\Privacy\IPrivacySpecifyObjectValidator.cs" />
+    <Compile Include="Regulate\Privacy\PrivacyItem.cs" />
+    <Compile Include="Regulate\Privacy\PrivacyItemGroup.cs" />
+    <Compile Include="Regulate\Privacy\PrivacyItemGroupIds.cs" />
+    <Compile Include="Regulate\Privacy\PrivacyItemKeys.cs" />
+    <Compile Include="Regulate\Privacy\PrivacyService.cs" />
+    <Compile Include="Regulate\Privacy\PrivacyStatus.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\ContentPrivacySpecifyObjectsRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\IContentPrivacySpecifyObjectsRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\IPrivacyItemRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\IStopedUserRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\IUserPrivacySettingRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\IUserPrivacySpecifyObjectRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\PrivacyItemRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\StopedUserRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\UserPrivacySettingRepository.cs" />
+    <Compile Include="Regulate\Privacy\Repositories\UserPrivacySpecifyObjectRepository.cs" />
+    <Compile Include="Regulate\Privacy\SpecifyObjectType.cs" />
+    <Compile Include="Regulate\Privacy\SpecifyObjectTypeIds.cs" />
+    <Compile Include="Regulate\Privacy\StopedUser.cs" />
+    <Compile Include="Regulate\Privacy\UserGroupPrivacySpecifyObjectValidator.cs" />
+    <Compile Include="Regulate\Privacy\UserPrivacySetting.cs" />
+    <Compile Include="Regulate\Privacy\UserPrivacySpecifyObject.cs" />
+    <Compile Include="Regulate\Privacy\UserPrivacySpecifyObjectValidator.cs" />
+    <Compile Include="Regulate\UserBlock\BlockedObjectTypes.cs" />
+    <Compile Include="Regulate\UserBlock\Repositories\IUserBlockRepository.cs" />
+    <Compile Include="Regulate\UserBlock\Repositories\UserBlockRepository.cs" />
+    <Compile Include="Regulate\UserBlock\UserBlockedObject.cs" />
+    <Compile Include="Regulate\UserBlock\UserBlockService.cs" />
+    <Compile Include="Search\CountTypesExtension.cs" />
+    <Compile Include="Search\Repositories\ISearchedTermRepository.cs" />
+    <Compile Include="Search\Repositories\ISearchHistoryRepository.cs" />
+    <Compile Include="Search\Repositories\SearchedTermRepository.cs" />
+    <Compile Include="Search\Repositories\SearchHistoryRepository.cs" />
+    <Compile Include="Search\SearchedTerm.cs" />
+    <Compile Include="Search\SearchedTermService.cs" />
+    <Compile Include="Search\SearchHistoryService.cs" />
+    <Compile Include="User\Follow\BatchFollowEventArgs.cs" />
+    <Compile Include="User\Follow\Follow.cs" />
+    <Compile Include="User\Follow\FollowEnum.cs" />
+    <Compile Include="User\Follow\FollowService.cs" />
+    <Compile Include="User\Follow\Repositories\FollowRepository.cs" />
+    <Compile Include="User\Follow\Repositories\IFollowRepository.cs" />
+    <Compile Include="User\Follow\UserExtensionByFollow.cs" />
+    <Compile Include="Victornet.Email.Tasks\EmailTask.cs" />
+    <Compile Include="Victornet.Email\EmailBuilder.cs" />
+    <Compile Include="Victornet.Email\EmailQueueEntry.cs" />
+    <Compile Include="Victornet.Email\EmailQueueRepository.cs" />
+    <Compile Include="Victornet.Email\EmailService.cs" />
+    <Compile Include="Victornet.Email\EmailSettings.cs" />
+    <Compile Include="Victornet.Email\EmailTemplate.cs" />
+    <Compile Include="Victornet.Email\IEmailQueueRepository.cs" />
+    <Compile Include="Victornet.Email\IEmailSettingsManager.cs" />
+    <Compile Include="Victornet.Email\ISmtpSettingsRepository.cs" />
+    <Compile Include="Victornet.Email\SmtpSettings.cs" />
+    <Compile Include="Victornet.Email\SmtpSettingsRepository.cs" />
+    <Compile Include="User\Account\ChangePointsEventArgs.cs" />
+    <Compile Include="User\Account\CreateUserEventArgs.cs" />
+    <Compile Include="User\Account\DeleteUserEventArgs.cs" />
+    <Compile Include="User\Account\IMembershipService.cs" />
+    <Compile Include="User\Account\RewardAndPunishmentUserEventArgs.cs" />
+    <Compile Include="User\Account\UpdateRankEventArgs.cs" />
+    <Compile Include="User\Point\Configuration\PointSettings.cs" />
+    <Compile Include="User\Point\PointCategory.cs" />
+    <Compile Include="User\Point\PointCategoryKeys.cs" />
+    <Compile Include="User\Point\PointItem.cs" />
+    <Compile Include="User\Point\PointItemKeys.cs" />
+    <Compile Include="User\Point\PointRecord.cs" />
+    <Compile Include="User\Point\PointService.cs" />
+    <Compile Include="User\Point\PointStatistic.cs" />
+    <Compile Include="User\Point\Repositories\IPointItemRepository.cs" />
+    <Compile Include="User\Point\Repositories\IPointRecordRepository.cs" />
+    <Compile Include="User\Point\Repositories\IPointStatisticRepository.cs" />
+    <Compile Include="User\Point\Repositories\PointCategoryRepository.cs" />
+    <Compile Include="User\Point\Repositories\PointItemRepository.cs" />
+    <Compile Include="User\Point\Repositories\PointRecordRepository.cs" />
+    <Compile Include="User\Point\Repositories\PointStatisticRepository.cs" />
+    <Compile Include="User\Role\Repositories\IUserInRoleRepository.cs" />
+    <Compile Include="User\Role\Repositories\RoleRepository.cs" />
+    <Compile Include="User\Role\Repositories\UserInRoleRepository.cs" />
+    <Compile Include="User\Role\Role.cs" />
+    <Compile Include="User\Role\RoleNames.cs" />
+    <Compile Include="User\Role\RoleService.cs" />
+    <Compile Include="User\Role\UserExtensionByRole.cs" />
+    <Compile Include="User\Role\UserInRole.cs" />
+    <Compile Include="Victornet.Search\ISearchEngine.cs" />
+    <Compile Include="Victornet.Search\SearchEngine.cs" />
+    <Compile Include="Victornet.Search\SearcherManager.cs" />
+    <Compile Include="Victornet.Tasks\ITask.cs" />
+    <Compile Include="Victornet.Tasks\ITaskDetailRepository.cs" />
+    <Compile Include="Victornet.Tasks\ITaskScheduler.cs" />
+    <Compile Include="Victornet.Tasks\RulePart.cs" />
+    <Compile Include="Victornet.Tasks\RunAtServer.cs" />
+    <Compile Include="Victornet.Tasks\TaskDetail.cs" />
+    <Compile Include="Victornet.Tasks\TaskDetailRepository.cs" />
+    <Compile Include="Victornet.Tasks\TaskFrequency.cs" />
+    <Compile Include="Victornet.Tasks\TaskSchedulerFactory.cs" />
+    <Compile Include="Victornet.Tasks\TaskService.cs" />
+    <Compile Include="User\Account\Configuration\UserSettings.cs" />
+    <Compile Include="User\Account\IAuthenticationService.cs" />
+    <Compile Include="User\Account\IUser.cs" />
+    <Compile Include="User\Account\IUserService.cs" />
+    <Compile Include="User\Account\UserEnum.cs" />
+    <Compile Include="User\OnlineUser\OnlineUser.cs" />
+    <Compile Include="User\OnlineUser\OnlineUserService.cs" />
+    <Compile Include="User\OnlineUser\OnlineUserStatistic.cs" />
+    <Compile Include="User\OnlineUser\Repositories\IOnlineUserRepository.cs" />
+    <Compile Include="User\OnlineUser\Repositories\IOnlineUserStatisticRepository.cs" />
+    <Compile Include="User\OnlineUser\Repositories\OnlineUserRepository.cs" />
+    <Compile Include="User\OnlineUser\Repositories\OnlineUserStatisticRepository.cs" />
+    <Compile Include="User\OnlineUser\Tasks\OnlineUserTask.cs" />
+    <Compile Include="Victornet.Events\BatchEventHandler.cs" />
+    <Compile Include="Victornet.Events\CommonEventArgs.cs" />
+    <Compile Include="Victornet.Events\CommonEventHandler.cs" />
+    <Compile Include="Victornet.Events\EventBus.cs" />
+    <Compile Include="Victornet.Events\EventHandlerWithHistory.cs" />
+    <Compile Include="Victornet.Events\EventOperationType.cs" />
+    <Compile Include="Victornet.Events\IEventBus.cs" />
+    <Compile Include="Victornet.Events\IEventMoudle.cs" />
+    <Compile Include="Victornet.FileStore\DefaultStoreFile.cs" />
+    <Compile Include="Victornet.FileStore\DefaultStoreProvider.cs" />
+    <Compile Include="Victornet.FileStore\IStoreFile.cs" />
+    <Compile Include="Victornet.FileStore\IStoreProvider.cs" />
+    <Compile Include="Victornet.FileStore\NetResource.cs" />
+    <Compile Include="Victornet.FileStore\NetworkShareAccesser.cs" />
+    <Compile Include="Victornet.FileStore\ResourceDisplayType.cs" />
+    <Compile Include="Victornet.FileStore\ResourceScope.cs" />
+    <Compile Include="Victornet.FileStore\ResourceType.cs" />
+    <Compile Include="Victornet.Globalization\ResourceAccessor.cs" />
+    <Compile Include="Victornet.Imaging\AnchorLocation.cs" />
+    <Compile Include="Victornet.Imaging\CropFilter.cs" />
+    <Compile Include="Victornet.Imaging\EXIFMetaDataService.cs" />
+    <Compile Include="Victornet.Imaging\IImageFilter.cs" />
+    <Compile Include="Victornet.Imaging\ImageMetadata.cs" />
+    <Compile Include="Victornet.Imaging\ImageProcessor.cs" />
+    <Compile Include="Victornet.Imaging\ImageWatermarkFilter.cs" />
+    <Compile Include="Victornet.Imaging\RectangleUtil.cs" />
+    <Compile Include="Victornet.Imaging\ResizeFilter.cs" />
+    <Compile Include="Victornet.Imaging\ResizeMethod.cs" />
+    <Compile Include="Victornet.Imaging\TextWatermarkFilter.cs" />
+    <Compile Include="Victornet.Imaging\WatermarkFilterBase.cs" />
+    <Compile Include="Victornet.Logging.Log4Net\Log4NetLogger.cs" />
+    <Compile Include="Victornet.Logging.Log4Net\Log4NetLoggerFactoryAdapter.cs" />
+    <Compile Include="Victornet.Logging.Repositories\IOperationLogRepository.cs" />
+    <Compile Include="Victornet.Logging.Repositories\OperationLogRepository.cs" />
+    <Compile Include="Victornet.Logging\ILogger.cs" />
+    <Compile Include="Victornet.Logging\ILoggerFactoryAdapter.cs" />
+    <Compile Include="Victornet.Logging\IOperationLogSpecificPart.cs" />
+    <Compile Include="Victornet.Logging\IOperationLogSpecificPartProcesser.cs" />
+    <Compile Include="Victornet.Logging\IOperatorInfoGetter.cs" />
+    <Compile Include="Victornet.Logging\LoggerExtension.cs" />
+    <Compile Include="Victornet.Logging\LoggerFactory.cs" />
+    <Compile Include="Victornet.Logging\LogLevel.cs" />
+    <Compile Include="Victornet.Logging\OperationLogEntry.cs" />
+    <Compile Include="Victornet.Logging\OperationLogQuery.cs" />
+    <Compile Include="Victornet.Logging\OperationLogService.cs" />
+    <Compile Include="Victornet.Logging\OperatorInfo.cs" />
+    <Compile Include="Victornet\CommonExceptionDescriptor.cs" />
+    <Compile Include="Victornet\DefaultRunningEnvironment.cs" />
+    <Compile Include="Victornet\DIContainer.cs" />
+    <Compile Include="Victornet\EntityData.cs" />
+    <Compile Include="Victornet\EntityOperationType.cs" />
+    <Compile Include="Victornet\ExceptionDescriptor.cs" />
+    <Compile Include="Victornet\ExceptionFacade.cs" />
+    <Compile Include="Victornet\ExceptionMessageDescriptor.cs" />
+    <Compile Include="Victornet\IdGenerator.cs" />
+    <Compile Include="Victornet\IPagingDataSet.cs" />
+    <Compile Include="Victornet\IRunningEnvironment.cs" />
+    <Compile Include="Victornet\ISerializableProperties.cs" />
+    <Compile Include="Victornet\PermissionExceptionDescriptor.cs" />
+    <Compile Include="Victornet\PropertySerializer.cs" />
+    <Compile Include="Victornet\ResourceExceptionDescriptor.cs" />
+    <Compile Include="Victornet\SerializablePropertiesBase.cs" />
+    <Compile Include="Victornet\SqlTraceEntity.cs" />
+    <Compile Include="Victornet\Victornet.Caching\CacheSettingAttribute.cs" />
+    <Compile Include="Victornet\Victornet.Caching\CacheVersionType.cs" />
+    <Compile Include="Victornet\Victornet.Caching\CachingExpirationType.cs" />
+    <Compile Include="Victornet\Victornet.Caching\DefaultCacheService.cs" />
+    <Compile Include="Victornet\Victornet.Caching\EntityCacheExpirationPolicies.cs" />
+    <Compile Include="Victornet\Victornet.Caching\ICache.cs" />
+    <Compile Include="Victornet\Victornet.Caching\ICacheService.cs" />
+    <Compile Include="Victornet\Victornet.Caching\IListCacheSetting.cs" />
+    <Compile Include="Victornet\Victornet.Caching\MemcachedCache.cs" />
+    <Compile Include="Victornet\Victornet.Caching\RealTimeCacheHelper.cs" />
+    <Compile Include="Victornet\Victornet.Caching\RuntimeMemoryCache.cs" />
+    <Compile Include="Common\PresentAreas\PresentArea.cs" />
+    <Compile Include="Common\PresentAreas\PresentAreaKeysOfBuiltIn.cs" />
+    <Compile Include="Common\PresentAreas\PresentAreaService.cs" />
+    <Compile Include="Victornet\PagingDataSet.cs" />
+    <Compile Include="Victornet\PagingEntityIdCollection.cs" />
+    <Compile Include="Common\Settings\ISettingsManager.cs" />
+    <Compile Include="Common\Settings\Repositories\ISettingsRepository.cs" />
+    <Compile Include="Common\Settings\Repositories\SettingsRepository.cs" />
+    <Compile Include="Common\Settings\SettingsManager.cs" />
+    <Compile Include="Common\SiteSettings\SiteSettings.cs" />
     <Compile Include="PetaPoco\AnsiString.cs" />
     <Compile Include="PetaPoco\ColumnAttribute.cs" />
     <Compile Include="PetaPoco\ColumnInfo.cs" />
@@ -81,19 +489,53 @@
     <Compile Include="PetaPoco\TableNameAttribute.cs" />
     <Compile Include="PetaPoco\Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WZ.Repositories\IRepository.cs" />
-    <Compile Include="WZ.Repositories\Repository.cs" />
-    <Compile Include="WZ\IEntity.cs" />
-    <Compile Include="WZ\IPagingDataSet.cs" />
-    <Compile Include="WZ\ISerializableProperties.cs" />
-    <Compile Include="WZ\PagingDataSet.cs" />
-    <Compile Include="WZ\PagingEntityIdCollection.cs" />
-    <Compile Include="WZ\PropertySerializer.cs" />
-    <Compile Include="WZ\SerializablePropertiesBase.cs" />
+    <Compile Include="Victornet\IEntity.cs" />
+    <Compile Include="Victornet.Repositories\IRepository.cs" />
+    <Compile Include="Victornet.Repositories\Repository.cs" />
+    <Compile Include="UI\Themes\IThemeResolver.cs" />
+    <Compile Include="UI\Themes\Theme.cs" />
+    <Compile Include="UI\Themes\ThemeAppearance.cs" />
+    <Compile Include="UI\Themes\ThemedAttribute.cs" />
+    <Compile Include="UI\Themes\ThemedRazorView.cs" />
+    <Compile Include="UI\Themes\ThemedViewEngine.cs" />
+    <Compile Include="UI\Themes\ThemedWebViewPage.cs" />
+    <Compile Include="UI\Themes\ThemedWebViewPage`1.cs" />
+    <Compile Include="UI\Themes\ThemeService.cs" />
+    <Compile Include="Victornet.Utilities\DictionaryExtension.cs" />
+    <Compile Include="Victornet.Utilities\EncryptionUtility.cs" />
+    <Compile Include="Victornet.Utilities\HashEncrypt.cs" />
+    <Compile Include="Victornet.Utilities\HashEncryptType.cs" />
+    <Compile Include="Victornet.Utilities\HtmlUtility.cs" />
+    <Compile Include="Victornet.Utilities\HttpCollects.cs" />
+    <Compile Include="Victornet.Utilities\ReadOnlyCollectionExtension.cs" />
+    <Compile Include="Victornet.Utilities\StringUtility.cs" />
+    <Compile Include="Victornet.Utilities\SymmetricEncrypt.cs" />
+    <Compile Include="Victornet.Utilities\SymmetricEncryptType.cs" />
+    <Compile Include="Victornet.Utilities\TrustedHtml.cs" />
+    <Compile Include="Victornet.Utilities\TrustedHtmlLevel.cs" />
+    <Compile Include="Victornet.Utilities\ValueUtility.cs" />
+    <Compile Include="Victornet.Utilities\WebUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\glimpse.mvc3.readme.txt" />
+    <Content Include="App_Readme\glimpse.readme.txt" />
+    <Content Include="Victornet\Models.SerializablePropertiesExample.xml" />
+    <Content Include="Victornet\Victornet.Caching\CacheExample.xml" />
+    <Content Include="Victornet.Utilities\BBCodeToHtml.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

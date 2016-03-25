@@ -1,13 +1,118 @@
-D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.dll
-D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.pdb
-D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.dll
-D:\Github\ZhiQis\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.pdb
-D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.dll
-D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\bin\Debug\ZQ.BusinessComponents.pdb
-D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Debug\BusinessComponents.csprojResolveAssemblyReference.cache
-D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.dll
-D:\Leon\Github\ZhiQi\ReportingWebSite\BusinessComponents\obj\Debug\ZQ.BusinessComponents.pdb
-D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\bin\Debug\WZ.BusinessComponents.dll
-D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\bin\Debug\WZ.BusinessComponents.pdb
-D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\obj\Debug\WZ.BusinessComponents.dll
-D:\Leon\Github\51JZL\EnterpriseWebsite\BusinessComponents\obj\Debug\WZ.BusinessComponents.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.dll.config
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Autofac.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\CodeKicker.BBCode.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.Web.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Glimpse.Core.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Glimpse.Mvc3.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\HtmlAgilityPack.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Ionic.Zip.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\log4net.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Lucene.Net.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Membase.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.HighLight.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.Lucene.Analyzer.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\RazorEngine.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Autofac.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\CodeKicker.BBCode.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\CodeKicker.BBCode.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.Web.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Ionic.Zip.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\log4net.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Lucene.Net.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Membase.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\Membase.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.HighLight.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.Lucene.Analyzer.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\RazorEngine.pdb
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\bin\Debug\RazorEngine.xml
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\obj\Debug\Victornet.Common.dll
+D:\visual studio 2013\victor\ShareCode\BusinessComponents\obj\Debug\Victornet.Common.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\obj\Debug\BusinessComponents.csprojResolveAssemblyReference.cache
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\obj\Debug\Victornet.Common.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\obj\Debug\Victornet.Common.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.dll.config
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Victornet.Common.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Autofac.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\CodeKicker.BBCode.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.Web.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Glimpse.Core.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Glimpse.Mvc3.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\HtmlAgilityPack.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Ionic.Zip.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\log4net.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Lucene.Net.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Membase.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.HighLight.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.Lucene.Analyzer.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\RazorEngine.dll
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Autofac.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\CodeKicker.BBCode.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\CodeKicker.BBCode.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Enyim.Caching.Web.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Ionic.Zip.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\log4net.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Lucene.Net.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Membase.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\Membase.xml
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.HighLight.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\PanGu.Lucene.Analyzer.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\RazorEngine.pdb
+D:\BaiduYunDownload\victor\ShareCode\BusinessComponents\bin\Debug\RazorEngine.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Victornet.Common.dll.config
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Victornet.Common.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Victornet.Common.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Victornet.Common.pdb
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Autofac.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Enyim.Caching.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Enyim.Caching.Web.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Glimpse.Core.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Glimpse.Mvc3.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Ionic.Zip.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\log4net.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Membase.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.Helpers.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.Mvc.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.Razor.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.WebPages.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Autofac.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Enyim.Caching.pdb
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Enyim.Caching.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Enyim.Caching.Web.pdb
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Ionic.Zip.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\log4net.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Membase.pdb
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Membase.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.Helpers.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.Mvc.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.Razor.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.WebPages.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\zh-Hans\System.Web.Helpers.resources.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\obj\Debug\BusinessComponents.csprojResolveAssemblyReference.cache
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\obj\Debug\Victornet.Common.dll
+D:\Github\51jzl\EnterpriseWebsite\BusinessComponents\obj\Debug\Victornet.Common.pdb

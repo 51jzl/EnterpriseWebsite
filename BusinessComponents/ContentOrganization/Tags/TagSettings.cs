@@ -1,0 +1,42 @@
+﻿//------------------------------------------------------------------------------
+// <copyright company="Victornet">
+//     Copyright (c) Victornet Inc.  All rights reserved.
+// </copyright> 
+//------------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Victornet.Caching;
+
+namespace Victornet.Common
+{
+    /// <summary>
+    /// 站点Tag设置
+    /// </summary>
+    [Serializable]
+    [CacheSetting(true)]
+    public class TagSettings:IEntity
+    {
+        private int maxTagsCount = 5;
+        /// <summary>
+        /// 最大标签数
+        /// </summary>
+        public int MaxTagsCount
+        {
+            get { return maxTagsCount; }
+            set { maxTagsCount = value; }
+        }
+        #region IEnity 成员
+
+        object IEntity.EntityId
+        {
+            get { return typeof(TagSettings).FullName; }
+        }
+
+        bool IEntity.IsDeletedInDatabase { get; set; }
+       
+        #endregion        
+    }
+}
